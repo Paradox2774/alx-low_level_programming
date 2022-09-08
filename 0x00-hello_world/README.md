@@ -12,3 +12,5 @@ Task 5. Write a C program that prints exactly with proper grammar, but the outco
 
 Task 6. Write a C program that prints the size of various types on the computer it is compiled and run on.
 
+Task 7. Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+
