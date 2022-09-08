@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Description: prints Dora's quote
  * Return: 0
