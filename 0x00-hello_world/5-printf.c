@@ -5,6 +5,7 @@
 * 
 * Description: using the main function 
 * this program prints "programming is like building a multilinugal puzzle
+*
 * Return: 0
 */
 int main(void)
