@@ -4,3 +4,5 @@ Task 1. This program will assign a random number to the variable n each time it 
 
 Task 2. Write a program that prints the alphabet in lower case, followed by a new line.
 
+Task 3. Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
