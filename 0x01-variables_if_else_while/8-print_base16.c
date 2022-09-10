@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -  prints all the numbers of base 16 in lowercase, 
+ * main -  prints all the numbers of base 16 in lowercase,
  * followed by a new line.
  *
  * Description: using main function
@@ -11,7 +11,7 @@ int main(void)
 {
 	char c;
 
-	for( c = '0' ; c <= '9'; c++)
+	for(c = '0' ; c <= '9'; c++)
 	{
 		putchar(c);
 	}
