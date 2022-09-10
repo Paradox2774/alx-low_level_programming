@@ -9,7 +9,7 @@
  */
 int mai(void)
 {
-	char cd;
+	char ch;
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
