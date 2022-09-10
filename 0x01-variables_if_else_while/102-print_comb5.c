@@ -10,38 +10,28 @@
 
 int main(void)
 {
-	int i, j, k, m;
+	int x, y;
 
-	i = 48;
-	while (i < 58)
+	for (x = 0 ; x < 100 ; x++)
 	{
-		j = 48;
-		while (j < 58)
+		for (y = x + 1 ; y < 100 ; y++)
 		{
-			m = j + 1;
-			k = i;
-			while (k < 58)
+			putchar(x / 10 + '0');
+			putchar(x % 10 + '0');
+
+			putchar(' ');
+
+			putchar(y / 10 + '0');
+			putchar(y % 10 + '0');
+
+			if (x == 98 && y == 99)
 			{
-				while (m < 58)
-				{
-					putchar(i);
-					putchar(32);
-					putchar(k);
-					putchar(m);
-					if (i < 57 || j < 56 || k < 57 || m < 57)
-					{
-						putchar(44);
-						putchar(32);
-					}
-					m++;
-				}
-				m = 48;
-				k++;
+				break;
 			}
-			j++;
+			putchar(',');
+			putchar(' ');
 		}
-		i++;
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
