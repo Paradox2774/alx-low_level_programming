@@ -35,6 +35,7 @@ int main(void)
 					}
 					m++;
 				}
+				m = 48
 				k++;
 			}
 			j++;
