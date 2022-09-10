@@ -7,7 +7,7 @@
  * this program prints the letters of the alphabet except e and q
  * Return: 0
  */
-int mai(void)
+int main(void)
 {
 	char ch;
 
