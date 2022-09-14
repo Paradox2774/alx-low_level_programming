@@ -4,7 +4,7 @@
  * main - prints the first 97 Fibonacci
  * Decription: using main function
  *
- * Return : 0
+ * Return: 0
 */
 int main(void)
 {
@@ -40,4 +40,4 @@ int main(void)
 	printf("\n");
 
 	return (0);
-}	
+}
