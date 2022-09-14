@@ -2,6 +2,7 @@
 
 /**
  * main - prints the first 97 Fibonacci
+ * Decription: using main function
  *
  * Return : 0
 */
