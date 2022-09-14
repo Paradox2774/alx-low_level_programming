@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - function to print abc 10 times
  * Description: using print_alphabet_x10 function
- * 
+ *
  * Return: 0
 */
 
