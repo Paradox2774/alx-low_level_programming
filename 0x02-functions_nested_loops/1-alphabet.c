@@ -2,6 +2,7 @@
 
 /**
  * print _alphabet - function to print abc
+ * Description: using print_alphabet function
  *
  * Return: 0
 */
