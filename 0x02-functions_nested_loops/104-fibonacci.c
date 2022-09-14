@@ -7,45 +7,35 @@
 */
 int main(void)
 {
-	int count;
-	unsigned long x1 = 0, x2 = 1, sum;
-	unsigned long x1_y1, x1_y2, x2_y1, x2_y2;
-	unsigned long y1, y2;
+	unsigned long int i, j, k, j1, j2, k1, k2;
 
-	for (count = 0; count < 92; count++)
+	j = 1;
+	k = 2;
+
+	printf("%lu", j);
+
+	for (i = 1; i < 91; i++)
 	{
-		sum = x1 + x2;
-		printf("%lu, ", sum);
-
-		x1 = x2;
-		x2 = sum;
+		printf(", %lu", k);
+		k = k + j;
+		j = k - j;
 	}
-	x1_y1 = x1 / 10000000000;
-	x2_y1 = x2 / 10000000000;
-	x1_y2 = x1 % 10000000000;
-	x2_y2 = x2 % 10000000000;
 
-	for (count = 93; count < 99; count++)
+	j1 = j / 1000000000;
+	j2 = j % 1000000000;
+	k1 = k / 1000000000;
+	k2 = k % 1000000000;
+
+	for (i = 92; i < 99; ++i);
 	{
-		y1 = x1_y1 + x2_y1;
-		y2 = x1_y2 + x2_y2;
-
-		if (x1_y2 + x2_y2 > 9999999999)
-		{
-			y1 += 1;
-			y2 %= 10000000000;
-		}
-
-		printf("%lu%lu", y1, y2);
-
-		if (count != 98)
-			printf(",");
-
-		x1_y1 = x2_y1;
-		x1_y2 = x2_y2;
-		x2_y1 = y1;
-		x2_y2 = y2;
+		printf(", %lu", k1 + (k2 / 1000000000);
+		printf("%lu", k2 % 1000000000);
+		k1 = k1 + j1;
+		j1 = k1 - j1;
+		k2 = k2 + j2;
+		j2 + k2 - j2;
 	}
+
 	printf("\n");
 	return (0);
 }
