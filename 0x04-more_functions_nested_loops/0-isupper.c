@@ -5,7 +5,7 @@
  * Description: using _isupper
  *
  * @c: character to be tested
- * Reurn: 1 whether it is, 0 otherwise
+ * Return: 1 whether it is, 0 otherwise
 */
 
 int _isupper(int c)
