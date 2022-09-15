@@ -3,7 +3,7 @@
 /**
  * main - debugging
  * Description: using main function
- * 
+ *
  * Return: 0
 */
 int main(void)
