@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - causes an indefinite loop
- * Description: using main function
- *
+ * main - causes an infinite loop
  * Return: 0
 */
 int main(void)
