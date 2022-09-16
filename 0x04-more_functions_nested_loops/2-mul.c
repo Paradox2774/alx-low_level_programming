@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int mul(int a, int b) - multtiplies two integers
+ * mul - multtiplies two integers
  * @a: first integer
  * @b: second integer
  *
