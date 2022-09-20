@@ -25,4 +25,17 @@ Task 7. Write a function that prints half of a string, followed by a new line.
 	* If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
 
 
-Task 8i
+Task 8. Write a function that prints n elements of an array of integers, followed by a new line.
+	* Prototype: void print_array(int *a, int n);
+	* where n is the number of elements of the array to be printed
+	* Numbers must be separated by comma, followed by a space
+	* The numbers should be displayed in the same order as they are stored in the array
+	* You are allowed to use printf
+
+Task 9. 	* Prototype: char *_strcpy(char *dest, char *src);
+        Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+	* Return value: the pointer to dest
+
+Task 10. Write a function that convert a string to an integer.
+
+Task 11. Create a program that generates random valid passwords for the program 101-crackme.
