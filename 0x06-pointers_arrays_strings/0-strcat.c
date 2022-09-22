@@ -1,4 +1,4 @@
-#include "mainh"
+#include "main.h"
 
 /**
  * *_strcat - function commute srtings
